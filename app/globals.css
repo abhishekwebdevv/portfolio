@@ -31,7 +31,19 @@ body {
     )
     rgb(var(--background-start-rgb)); */
   height: 100vh;
-  padding: 2rem 2rem;
+  padding: 0.2rem;
+}
+
+@media screen and (min-width: 540px) {
+  body {
+    padding: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    padding: 2rem;
+  }
 }
 
 /* hide scrollbar */
