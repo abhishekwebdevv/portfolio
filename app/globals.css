@@ -30,11 +30,11 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb)); */
-  height: 100vh;
-  padding: 0.2rem;
+  /* height: 100vh; */
+  /* padding: 0.2rem; */
 }
 
-@media screen and (min-width: 540px) {
+/* @media screen and (min-width: 540px) {
   body {
     padding: 1rem;
   }
@@ -44,7 +44,7 @@ body {
   body {
     padding: 2rem;
   }
-}
+} */
 
 /* hide scrollbar */
 @layer utilities {
