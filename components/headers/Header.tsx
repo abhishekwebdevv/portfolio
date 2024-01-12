@@ -22,9 +22,13 @@ const menuList = [
 
 export function Header() {
   return (
-    <header className="border-4 border-black rounded-3xl rounded-b-none flex items-center justify-center py-2 gap-x-4">
+    <header className="border-4 border-black rounded-3xl rounded-b-none flex items-center justify-center gap-x-4">
       {menuList.map((menuItem) => (
-        <Link href="/" key={menuItem.id}>
+        <Link
+          href="/"
+          key={menuItem.id}
+          className="p-2 hover:bg-black hover:text-white"
+        >
           {menuItem.name}
         </Link>
       ))}

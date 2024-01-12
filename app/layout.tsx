@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en" className="p-1 sm:p-4 md:p-8 h-screen">
       <body className="h-full flex flex-col ">
         <Header />
-        <div className="border-4 border-t-0 border-black rounded-3xl rounded-t-none overflow-auto h-auto grow-[1] shrink-[1] basis-auto">
+        <div className="border-4 border-y-0 border-black rounded-3xl rounded-t-none rounded-b-none overflow-auto h-auto grow-[1] shrink-[1] basis-auto">
           {children}
         </div>
         <Footer />
