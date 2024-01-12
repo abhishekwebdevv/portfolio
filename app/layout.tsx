@@ -17,9 +17,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="p-1 sm:p-4 md:p-8 h-screen">
-      <body className="border-4 border-black rounded-3xl overflow-y-scroll">
+      <body className="h-full flex flex-col ">
         <Header />
-        {children}
+        <div className="border-4 border-t-0 border-black rounded-3xl rounded-t-none overflow-auto h-auto grow-[1] shrink-[1] basis-auto">
+          {children}
+        </div>
         <Footer />
       </body>
     </html>
